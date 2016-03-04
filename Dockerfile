@@ -4,8 +4,8 @@ USER root
 
 # RUN echo "Acquire::http::No-Cache true;\nAcquire::http::Pipeline-Depth 0;" \
 #     > /etc/apt/apt.conf.d/80http
-ADD https://deb.nodesource.com/setup /tmp/
-RUN bash /tmp/setup
+ADD https://deb.nodesource.com/setup_4.x /tmp/
+RUN bash /tmp/setup_4.x
 
 # add node.js repository key
 RUN apt-get update && apt-get upgrade -y \
