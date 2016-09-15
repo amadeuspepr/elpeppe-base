@@ -25,6 +25,7 @@ RUN apt-get update && apt-get upgrade -y \
     libxml2-dev \
     libxslt1-dev \
     nodejs \
+    nginx \
     python \
     python-apt \
     python-dev \

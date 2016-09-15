@@ -40,7 +40,7 @@
     "react": "~0.14.6",
     "react-addons-update": "~0.14.6",
     "react-highcharts": "~8.0.2",
-    "react-bootstrap": "~0.28.2",
+    "react-bootstrap": "~0.30.3",
     "react-date-picker": "~4.0.6",
     "react-dom": "~0.14.6",
     "react-dropzone": "~3.3.2",
